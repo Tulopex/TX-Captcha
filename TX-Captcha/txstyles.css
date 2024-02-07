@@ -1,0 +1,100 @@
+body,
+html {
+    font-family: "Andale Mono", monospace;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TX-Captcha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outer-rectangle {
+    width: 500px;
+    height: 400px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+.inner-rectangle {
+    width: 500px;
+    height: 150px;
+    background-color: lightblue;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.captcha-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.captcha-square {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.captcha-square.checked {
+    background-color: lightgreen;
+}
+
+.captcha-square.checked::before {
+    content: "\2192";
+    visibility: visible;
+}
+
+.buttoncaptcha {
+    background-color: rgb(0, 132, 255);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 20px 50px;
+    cursor: pointer;
+}
+
+#captchaMessage {
+    color: black;
+}
+
+.maintext {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.copyrating {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
