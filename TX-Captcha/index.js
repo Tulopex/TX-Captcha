@@ -9,6 +9,7 @@ function checkCaptcha() {
     if (isChecked) {
         document.getElementById("txCaptcha").style.display = "none";
         document.getElementById("mainContent").style.display = "block";
+        document.body.style.background = "none";
     } else {
         document.getElementById("captchaMessage").innerText = "TX Captcha не пройдена";
     }
