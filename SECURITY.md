@@ -1,14 +1,14 @@
 # Security Policy
 
-## Supported Versions
+## Поддерживаемые версии
 
-At the moment, these versions are safe:
+На данный момент эти версии безопасны:
 
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: |
 | 1.1.x   | :x:                |
 
-## Reporting a Vulnerability
+## Сообщение об уязвимости
 
-If you want to report a security issue, write to me in private messages on Telegram: https://t.me/HDDProgrammer
+Если вы хотите сообщить о проблеме с безопасностью, напишите мне в личные сообщения в Telegram: https://t.me/HDDProgrammer
